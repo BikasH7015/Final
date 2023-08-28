@@ -1,0 +1,113 @@
+/* ExampageNavbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  background-color: #d9d9d9d9;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  margin-right: 400px;
+  margin-top: -20px;
+}
+
+.Section {
+  display: flex;
+  justify-content: space-between; /* Arrange items in a row with space between them */
+  align-items: center; /* Align items vertically */
+  color: black;
+  font-size: 18px;
+  gap: 40px; 
+  /* Remove margin-right to allow flexible spacing */
+  margin-top: 6px;
+}
+
+.questions-count {
+  color: #38b6ff;
+}
+
+.answered-count {
+  color: #00bf63;
+}
+
+.mark-for-review-count {
+  color: blue;
+}
+
+.not-visited-count {
+  color: red;
+}
+
+.Sec-buttons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Section-button {
+  background-color: #050605;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Section-button + .Section-button {
+  margin-left: 40px;
+}
+
+.Section-button:hover {
+  background-color: #927b0c;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.end-test-button {
+  background-color: #28870b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex; 
+  align-items: center; /* Center text vertically */
+  white-space: normal; /* Allow text to wrap */
+}
+
+
+.end-test-button:hover {
+  background-color: #cc0101;
+}
+
+.timer-countdown {
+  background-color: #000000f1;
+  color: rgb(172, 2, 2);
+  padding: 10px 16px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 1;
+  min-width: 80px;
+  margin-right: 10px;
+  margin-left: 30px;
+  font-family: monospace;
+}

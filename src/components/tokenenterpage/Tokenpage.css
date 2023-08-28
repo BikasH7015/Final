@@ -1,0 +1,120 @@
+/* TokenPage.css */
+.token-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #5ddfe66e, #0011ad97);
+    
+    /* background: linear-gradient(90deg, #5de0e6, #004aad); */
+  }
+  
+  .logo-container {
+    margin-top: -40px;
+  }
+  
+  .logo {
+   width: 380px;
+    height: auto;
+  }
+  .box-container {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    font-style:oblique;
+  }
+  .rectangular-box {
+    width: 600px;
+    height: 300px; 
+    background-color: rgba(217, 217, 217, 0.142); 
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: -80px;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  background-color: black;
+ 
+
+  }
+  
+  input {
+    width: 300px;
+    height: 30px; 
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center; 
+    background-color:rgba(255, 255, 255, 0.804);
+   
+
+  }
+  .token-input::placeholder {
+
+    font-style: italic; 
+    color:black;
+    
+  }
+  button {
+    height: 40px; 
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .privacy-policy-container {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .privacy-policy-image {
+    width: 40px; 
+    height: 40px; 
+    object-fit: contain; 
+  }
+  .privacy-policy-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  .warning-text-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px; 
+  }
+  
+  .warning-image {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .warning-text {
+    margin: 0;
+  }
+  
+  .small-text {
+    font-size: 13px; 
+    margin-left: 0px; 
+  }
+  .privacy-text{
+    color:rgba(255, 0, 0, 0.772);
+  }

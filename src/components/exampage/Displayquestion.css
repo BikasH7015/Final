@@ -1,0 +1,17 @@
+/* DisplayQuestion.css */
+.question-box {
+    background-color: #c6c7d1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    /* Make the box flexible and adjust to content */
+    display: inline-block;
+    max-width: 100%;
+    min-width: 1000px; /* Set a default minimum width */
+    min-height: 500px; /* Set a default minimum height */
+    box-sizing: border-box;
+  }
+  
